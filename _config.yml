@@ -1,0 +1,95 @@
+### Site Settings ###
+title               : Azka Radinka
+description         : >-
+                      I am Azka, currently pursuing six-months machine learning course of study in Google Bangkit 2021
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : radinka-data/radinka-data.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : YoussefRaafatNasry/portfolYOU
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+
+### Author Info ###
+author:
+  name              : Azka Radinka
+  image             : https://lh3.googleusercontent.com/EH9Lr-P_BipMXfUh1O-j1yexBGlqGGbnZv06uQQExgseQpHCA5Ih8K8aHeDY2wkDysclch3cTvE15ReG5G0w-OEYA-WnwFro_Ao8ga9SxyiFdqh3eTX2VMWh8tTEoiqppIzFAdDkco0NyYWM_rvCuJo4YJ1lhrqcOVOf-hTT3NRRTrhLuJ9egVPDgeFw_JvMJEUtv3_t1u845We228v8qDSYdGis_4ISZWSyN0hApMYu6WOR6kNiDGT4K3IeV0N_dsOrUBf6-02XLEj2a2bR5KcLz9cAH-DoIgkjGzZEZSo1pf7dK_QNLleW2IT2Blbhv8i1pNTbmK8-5i7K5J2A2nP9bG9VSJoaem1FGiN89rOJTfywIJjudsKiJBx6o2C9fuNMjqnSvGKSoCSnwvd-uraqSskwLAOZnEnQaSIKnv4rZKfB3dNGrASHMNx2uzwUVB8lHZTr52-rCPKJ2mxZo-btiC6z-AX5oDHr7xSB36N2Fdqs0VDl6itGnkNlxphzFnemR1lksuMOAJLmb1liBWpxc309wGixg6PMio-tkEXtep2tKQqgFAnNOecthr-pJh14jEHafqI0g5aus96cBZJlp3lvMB-mA55kL13wr_nT5cr4-rN06AuQYbMqCSaOltdTFAa9cTqgkkKkII3griF5dpxaucVLYkPtu26DBCGznpd19QJI1AZmgcbbAN1vlwyWX71NBPMi2mt4qvOBGiJ97Q=s695-no?authuser=0
+# behance           : your_username
+# dribbble          : your_username
+  email             : azkaradinka@gmail.com
+#  facebook          : your_username
+  github            : aradinka
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  linkedin          : aradinka
+#  medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+#  twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
+
+
+### Disqus ###
+disqus:
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
