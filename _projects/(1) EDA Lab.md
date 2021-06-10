@@ -27,8 +27,6 @@ Tugas 02 :
 - Save chart yang sudah kalian buat dan berikan interpretasi pada masing-masing chart.
 - Code R yang kalian gunakan salin ke file txt dengan format NRP_NAMA LENGKAP.txt
 - Bentuk pdf berisi chart dan interpretasi dengan format NRP_NAMA LENGKAP.pdf
-
-{% include elements/button.html link="https://forms.gle/mtMDcHNhWwZwGW3h7" text="Form Pengumpulan Tugas" block=true %}
 - File txt, pdf, dan data yang kalian gunakan disatukan menjadi zip.rar dengan format NRP_NAMA LENGKAP
 
 Deadline tugas Senin, 22 Maret 2021 23:59 WIB
@@ -106,3 +104,7 @@ Code R materi kuliah bisa diakses di [Google Colaboratory](https://colab.researc
 
 ## Week 11 - Violin
 Code R materi kuliah bisa diakses di [Google Colaboratory](https://colab.research.google.com/drive/1CEYqleMtN0qplYjna_aD5gThB68YkTvr?usp=sharing)
+
+---
+
+{% include elements/button.html link="https://forms.gle/mtMDcHNhWwZwGW3h7" text="Form Pengumpulan Tugas" block=true %}
