@@ -1,11 +1,14 @@
 ---
 name: Mapping and Data Assesment for Natural Incident
 tools: [Computer Vision, Machine Learning]
-image: https://lh3.googleusercontent.com/yrGwb6GjWSn4QxkN7GiX3HI-CKnsUjyJIEy5L4PcJSlx8Mbr4mUnW_-h4F4iwNC-umV_YWDCaMukl0YYzQdhKbVTNHuVJuIIiHN6EawFTU29K4urcqt7PMfwrA5aBUJpgPj9XDKQ3uSjJyAVzsgz9mINwxpjmd0MhiQzEX94qtVrdCjWI1kbq7Vbbm83mcZzqWX7GuGO79Zx97ByT1t7KKypWEJx0aThRiUMaYWt2rjQtUSN1iowvecoX50CtRuWHDKCj_0ys9cfQcv1VHcRC9fkggN-c8OGerW9xZHGnpPjDc-cdYqwldp1hqlEK_zjFRSIRtYWHTNEfyZ1EgNIYo_84FoL_gQuAe_kWoBgeW5kaxI2vk04LXbPzzH1L7aRONo0pVasHVj7qeK-VwLbp4EzxYSOz1VMT01mz2mhMblAnYj8Ab-MHLi8UH3GvONtnnpJ078gF24zmuOZX2j4lCRMk1ffPcFMmqVQC36uRfdGb6EbTqaCSSvAdDF29Yoi1Nltlk2Wf5TeA2pm_fIcnxcPrczA71D7J4Rg3WreAwZX2xDknsSXo5phS30p4b2Gr4uCJzGl-dICzAlWEv37K2O5fZUz66_qBh2vHU8zWp58K-Q6Aa23HNM3ebXlFyX93xM9kwqWcUaB_sLAuPLffmuzL73lHw1Q2M2nO-vvFcn3NjRe092F5B_hPn3gL-hsQFhrGhro_u5pzHJtcl0FkqCVFg=w1080-h540-no?authuser=0
+image: https://i.postimg.cc/6qHBFPt6/Overview.jpg
+
 description: Madani is an application that makes it easier for volunteers to carry out disaster mitigation by classifying routes and impact buildings based on post-disaster satellite images.
 ---
 
 # Overview
+
+![](https://i.postimg.cc/6qHBFPt6/Overview.jpg)
 
 Madani is an application that makes it easier for volunteers to carry out disaster mitigation by classifying routes and impact buildings based on post-disaster satellite images.
 
@@ -13,15 +16,6 @@ From many disasters that have occurred in Indonesia, the problem that often occu
 
 Disaster mitigation follow the processes included in the standard operational procedures according to their level of disaster. MADANI is intended to support one of these processes, mainly in estimating areas and buildings affected by disasters, as well as in determining post-disaster logistics distribution channels.
 
-#### Madani Team | B21-CAP0237
-| Name | Role | Email | 
-| ------------- | ------------- | ------------- | 
-| Azka Muhammad Radinka Purba - M0040229 | Machine Learning | m0040229@bangkit.academy |
-| Aulia Wicaksono	- M0141314 | Machine Learning | m0141314@bangkit.academy |
-| Moh Yusril Ihza Maulana - A3322966 | Mobile Development | a3322966@bangkit.academy |
-| Mercya Salsabillah Shani - A1801839 | Mobile Development | a1801839@bangkit.academy |
-| Denny Alfani - C0040274 | Cloud Computing | c0040274@bangkit.academy |
-| Dania Putri Nur’aini - C0080775 | Cloud Computing | c0080775@bangkit.academy | 
 
 ## Mobile Development
 
@@ -29,7 +23,7 @@ Disaster mitigation follow the processes included in the standard operational pr
 
 - Onboarding Screen
 
-![https://github.com/Bangkit-Academy-B21-CAP0237/MADANI/blob/master/Mobile%20Development/Media/Slide2.png](https://github.com/Bangkit-Academy-B21-CAP0237/MADANI/blob/master/Mobile%20Development/Media/Slide2.png)
+![](https://raw.githubusercontent.com/Bangkit-Academy-B21-CAP0237/MADANI/master/Mobile%20Development/Media/Slide2.png)
 
 - Login
 
@@ -57,7 +51,7 @@ Disaster mitigation follow the processes included in the standard operational pr
 
 ### Application Flow
 
-![https://github.com/Bangkit-Academy-B21-CAP0237/MADANI/blob/master/Mobile%20Development/Media/Madani.png](https://github.com/Bangkit-Academy-B21-CAP0237/MADANI/blob/master/Mobile%20Development/Media/Madani.png)
+![](https://i.postimg.cc/XNDSSd9v/Slide11.jpg)
 
 ### Prototype Application Using Adobe XD
 
