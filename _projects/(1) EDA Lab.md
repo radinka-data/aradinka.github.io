@@ -19,16 +19,16 @@ description: Materi kelas praktikum mata kuliah analisis eksplorasi data
 
 ## Week 3 - Boxplot & Scatterplot
 
-{% include elements/button.html link="(https://colab.research.google.com/drive/1r9oVpsXrt8iC9w-q9fOwM4eGn3auvpnf?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
+{% include elements/button.html link="https://colab.research.google.com/drive/1r9oVpsXrt8iC9w-q9fOwM4eGn3auvpnf?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
 
 ## Week 4 - Ukuran Asosiasi
 
-{% include elements/button.html link="(https://colab.research.google.com/drive/1iecJ4U0-Pz_zQKzTXJqLQijApbeLDZsY?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
+{% include elements/button.html link="https://colab.research.google.com/drive/1iecJ4U0-Pz_zQKzTXJqLQijApbeLDZsY?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
 
 ## Week 5 - Letter Value
 
-{% include elements/button.html link="(https://drive.google.com/drive/folders/1oS-0e7noxYeWF9k4WKfUhclWj_L5dq2L?usp=sharing" text="Data Praktikum" style="primary" size="sm" %}
-{% include elements/button.html link="(https://colab.research.google.com/drive/1i6W_Zh3NmcV_WtCg7LdWezhW3cVK18_d?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
+{% include elements/button.html link="https://drive.google.com/drive/folders/1oS-0e7noxYeWF9k4WKfUhclWj_L5dq2L?usp=sharing" text="Data Praktikum" style="primary" size="sm" %}
+{% include elements/button.html link="https://colab.research.google.com/drive/1i6W_Zh3NmcV_WtCg7LdWezhW3cVK18_d?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
 
 ## Week 6 - Resistant Line
 
@@ -39,27 +39,27 @@ description: Materi kelas praktikum mata kuliah analisis eksplorasi data
 
 ## Week 7 - Median Polish, Rootogram
 
-{% include elements/button.html link="(https://drive.google.com/drive/folders/16zGrkeWi7yoVAOGhfu5M07TBqrxTv4aM?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
-{% include elements/button.html link="(https://colab.research.google.com/drive/1xIWG8PJCUMxkd8kiyJoAHHY2UYRVfrlD?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
+{% include elements/button.html link="https://drive.google.com/drive/folders/16zGrkeWi7yoVAOGhfu5M07TBqrxTv4aM?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
+{% include elements/button.html link="https://colab.research.google.com/drive/1xIWG8PJCUMxkd8kiyJoAHHY2UYRVfrlD?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
 
 ## Pembahasan ETS Tahun lalu - Materi Sigma Tutor
-{% include elements/button.html link="(https://colab.research.google.com/drive/1AwQj6Kr2yRzEemFXjdd2WAOFMUPndbEY?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
+{% include elements/button.html link="https://colab.research.google.com/drive/1AwQj6Kr2yRzEemFXjdd2WAOFMUPndbEY?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
 
 ## Week 9 - Kernel Density Estimation
 
-{% include elements/button.html link="(https://colab.research.google.com/drive/1JHHAMC_Ddb_Ih1vjEx88KRuPt3I3DVjX?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
+{% include elements/button.html link="https://colab.research.google.com/drive/1JHHAMC_Ddb_Ih1vjEx88KRuPt3I3DVjX?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
 
 
 ## Week 10 - Boxplot
 
-{% include elements/button.html link="(https://colab.research.google.com/drive/1OpWuZAtkavr7p4nYcFOG2f44Pe5R9X7d?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
+{% include elements/button.html link="https://colab.research.google.com/drive/1OpWuZAtkavr7p4nYcFOG2f44Pe5R9X7d?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
 
 ## Week 11 - Violin
 
-{% include elements/button.html link="(https://colab.research.google.com/drive/1CEYqleMtN0qplYjna_aD5gThB68YkTvr?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
+{% include elements/button.html link="https://colab.research.google.com/drive/1CEYqleMtN0qplYjna_aD5gThB68YkTvr?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
 
 ## Week 12 - Jitter Plot
 
-{% include elements/button.html link="(https://colab.research.google.com/drive/15bXT3lbrSI80gx39HJBd_rZGa_5FL8cN?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
+{% include elements/button.html link="https://colab.research.google.com/drive/15bXT3lbrSI80gx39HJBd_rZGa_5FL8cN?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
 
 {% include elements/button.html link="https://forms.gle/mtMDcHNhWwZwGW3h7" text="Form Pengumpulan Tugas Week 11" block=true %}
