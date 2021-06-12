@@ -8,13 +8,9 @@ description: Materi kelas praktikum mata kuliah analisis eksplorasi data
 
 ## Week 1 - Manajemen Data
 
-Data + Materi Kuliah : Download [Here](https://drive.google.com/file/d/1rBPoQj3D2yE2ze3MO6VePapgG2LIujeI/view?usp=sharing)
-
-File Tugas 01 : Download [Here](https://drive.google.com/file/d/1cmVHvt08ueXER5BAsyZnJif1VtqRljec/view?usp=sharing)
-
-Deadline tugas : Senin, 15 Maret 2021 23:59 WIB
-
-Pembahasan Tugas 01 : Download [Here](https://drive.google.com/file/d/1FX5XidiW75cOPQmgkJOSC3qRxivO4sbI/view?usp=sharing)
+{% include elements/button.html link="https://drive.google.com/file/d/1rBPoQj3D2yE2ze3MO6VePapgG2LIujeI/view?usp=sharing" text="Materi Kuliah" style="primary" size="sm" %}
+{% include elements/button.html link="https://drive.google.com/file/d/1cmVHvt08ueXER5BAsyZnJif1VtqRljec/view?usp=sharing" text="Tugas" style="primary" size="sm" %}
+{% include elements/button.html link="https://drive.google.com/file/d/1FX5XidiW75cOPQmgkJOSC3qRxivO4sbI/view?usp=sharing" text="Pembahasan Tugas" style="primary" size="sm" %}
 
 ## Week 2 - Grafik Dasar
 
