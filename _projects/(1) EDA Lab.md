@@ -14,8 +14,13 @@ description: Materi kelas praktikum mata kuliah analisis eksplorasi data
 
 ## Week 2 - Grafik Dasar
 
-Bonus Behind The Scene - Cleaning Data Instagram : Download [Here](https://drive.google.com/file/d/1_w2O8PCjCM8KPfEgTBySWr1n4oyJprbt/view?usp=sharing)
+{% include elements/button.html link="https://colab.research.google.com/drive/1qG1v1-l48GicfJC6LfkPYhH3c60OJi_A?usp=sharing" text="Materi Kuliah" style="primary" size="sm" %}
+{% include elements/button.html link="https://drive.google.com/file/d/1_w2O8PCjCM8KPfEgTBySWr1n4oyJprbt/view?usp=sharing" text="Bonus - Cleaning Data Instagram" style="primary" size="sm" %}
 
+
+
+<details>
+<summary>Deskripsi Tugas</summary>
 Tugas 02 :
 - Ambil data dengan topik bebas dari kaggle
 - Buatlah visualisasi menggunakan 3 plot (bar chart, pie chart, dan histogram) menggunakan fungsi barplot(), pie(), dan hist() di R. 
@@ -24,12 +29,7 @@ Tugas 02 :
 - Code R yang kalian gunakan salin ke file txt dengan format NRP_NAMA LENGKAP.txt
 - Bentuk pdf berisi chart dan interpretasi dengan format NRP_NAMA LENGKAP.pdf
 - File txt, pdf, dan data yang kalian gunakan disatukan menjadi zip.rar dengan format NRP_NAMA LENGKAP
-
-Deadline tugas Senin, 22 Maret 2021 23:59 WIB
-
-Data + Materi Kuliah : Download [Here](https://drive.google.com/file/d/1y-YE-5b2kVaMwcBLjvoTSmqJbq4gaytl/view?usp=sharing)
-
-Materi kuliah bisa diakses di [Google Colaboratory](https://colab.research.google.com/drive/1qG1v1-l48GicfJC6LfkPYhH3c60OJi_A?usp=sharing)
+</details>
 
 ## Week 3 - Boxplot & Scatterplot
 
