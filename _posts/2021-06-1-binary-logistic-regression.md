@@ -3,6 +3,7 @@ title: Regresi Logistik Biner
 tags: [analisis data kategori]
 style: fill
 color: warning
+description : Catatan mahasiswa ibu yang luhur
 ---
 
 {% capture list_items %}
