@@ -34,3 +34,21 @@ Variabel y mengikuti distribusi **Bernoulli** untuk setiap observasi tunggal.
 
 Fungsi probabilitasnya adalah:
 ![image](https://user-images.githubusercontent.com/71642722/121794635-38e79980-cc34-11eb-8f5c-64800dca647e.png)
+
+Dimana jika y = 0, maka f(y) = 1 - π, dan jika y = 1, maka F(y) = π.
+
+Fungsi regresi logistik dapat dituliskan sebagai berikut:
+![image](https://user-images.githubusercontent.com/71642722/121794696-ae536a00-cc34-11eb-888c-b648fc787bea.png)
+
+dengan,
+![image](https://user-images.githubusercontent.com/71642722/121794706-bd3a1c80-cc34-11eb-9813-b27dca120618.png)
+
+Nilai z antara -∞ dan +∞ sehingga nilai f(z) terletak antara 0 dan 1 untuk setiap nilai z yang diberikan.
+
+Hal tersebut menunjukkan bahwa **model logistik menggambarkan probabilitas atau resiko dari suatu objek**
+
+Model regresi logistiknya adalah sebagai berikut:
+![image](https://user-images.githubusercontent.com/71642722/121794741-10ac6a80-cc35-11eb-8b16-ea1ff654e21b.png)
+
+dimana p = banyaknya variabel prediktor
+
