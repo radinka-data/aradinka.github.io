@@ -1,10 +1,15 @@
 ---
-title: Binary Logistic Regression
-tags: [kuliah]
+title: Regresi Logistik Biner
+tags: [analisis data kategori]
 style: fill
 color: warning
-description: Catatan kuliah analisis data kategori
 ---
+
+{% capture list_items %}
+Metode Regresi
+Regresi Logistik Biner
+{% endcapture %}
+{% include elements/list.html title="Table of Contents" type="toc" %}
 
 ### Metode Regresi
 
@@ -26,4 +31,4 @@ Outcome dari variabel respon y terdiri dari 2 kategori yaitu "sukses" dan "gagal
 
 Variabel y mengikuti distribusi **Bernoulli** untuk setiap observasi tunggal.
 
-Fungsi probabilitasnya adalah sebagai berikut :
+Fungsi probabilitasnya adalah $f(y)=\pi^{y}(1-\pi)^{1-y}$
