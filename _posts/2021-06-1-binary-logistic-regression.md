@@ -32,5 +32,5 @@ Outcome dari variabel respon y terdiri dari 2 kategori yaitu "sukses" dan "gagal
 
 Variabel y mengikuti distribusi **Bernoulli** untuk setiap observasi tunggal.
 
-Fungsi probabilitasnya adalah $$
-![](https://latex.codecogs.com/svg.latex?\Large&space;f(y)=\pi^{y}(1-\pi)^{1-y}) 
+Fungsi probabilitasnya adalah:
+![image](https://user-images.githubusercontent.com/71642722/121794635-38e79980-cc34-11eb-8f5c-64800dca647e.png)
