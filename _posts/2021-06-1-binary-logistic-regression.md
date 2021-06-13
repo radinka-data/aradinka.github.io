@@ -62,7 +62,7 @@ Sehingga diperoleh persamaan berikut
 
 **Model tersebut merupakan fungsi linier dari parameter-parameternya.**
 
-Dalam model regresi linier, diasumsikan bahwa amatan dari variabel respon diekspresikan sebagai y = E(Y|x) + ε, dimana
+Dalam model regresi linier, diasumsikan bahwa amatan dari variabel respon diekspresikan sebagai `y = E(Y|x) + ε`, dimana
 
 ![image](https://user-images.githubusercontent.com/71642722/121803591-98fa3200-cc6c-11eb-8389-0065ed403dbc.png)
 
@@ -98,3 +98,50 @@ Fungsi likelihood tersebut lebih mudah dimaksimumkan dalam bentuk log l(β) dan 
 
 Nilai β maksimum didapatkan melalui turunan L(β) terhadap β. Dan hasilnya adalah sama dengan nol.
 
+![image](https://user-images.githubusercontent.com/71642722/121804033-81bc4400-cc6e-11eb-82f7-0607452d7d6a.png)
+
+sehingga,
+
+![image](https://user-images.githubusercontent.com/71642722/121804037-8e409c80-cc6e-11eb-8b03-544819f95d5c.png)
+
+##### Estimasi varians dan kovarians
+
+Estimasi varians dan kovarians dikembangkan melalui teori Maximum Likelihood Estimation dari koefisien parameternya (Rao, 1973 dalam Hosmer dan Lemeshow, 1989).
+
+Teori tersebut menyatakan bahwa estimasi varians kovarians didapatkan melalui turunan kedua L(β).
+
+![image](https://user-images.githubusercontent.com/71642722/121804080-d8298280-cc6e-11eb-8263-b0704a50bafc.png)
+
+Matriks varians kovarians berdasarkan estimasi parameter diperoleh melalui invers matriks dan diberikan sebagai berikut:
+
+![image](https://user-images.githubusercontent.com/71642722/121804107-f7281480-cc6e-11eb-8143-25564205111f.png)
+
+- Diag merupakan matriks diagonal (n x n) 
+- Penaksir SE(β-hat) diberikan oleh akar kuadrat diagonal utama
+- Untuk mendapatkan nilai taksiran β dari turunan pertama fungsi L(β) yang non linier, digunakan metode iterasi **Newton Raphson**
+
+![image](https://user-images.githubusercontent.com/71642722/121804197-60a82300-cc6f-11eb-9305-30230b79bd5f.png)
+
+dengan,
+
+![image](https://user-images.githubusercontent.com/71642722/121804206-6b62b800-cc6f-11eb-85fa-b730af2c755a.png)
+
+dan H merupakan matriks Hessian yang elemen-elemennya adalah 
+
+![image](https://user-images.githubusercontent.com/71642722/121804231-86cdc300-cc6f-11eb-98b8-f7bf0155b74d.png)
+
+sehingga,
+
+![image](https://user-images.githubusercontent.com/71642722/121804251-9cdb8380-cc6f-11eb-9a4f-c2ffb8393309.png)
+
+diperoleh,
+
+![image](https://user-images.githubusercontent.com/71642722/121804365-2e4af580-cc70-11eb-8a6d-c02b696ddada.png)
+
+dengan 
+
+![image](https://user-images.githubusercontent.com/71642722/121804372-3b67e480-cc70-11eb-9ab0-ccb68641c62d.png)
+
+Langkah-langkah iterasi Newton Raphson adalah sebagai berikut:
+
+![image](https://user-images.githubusercontent.com/71642722/121804418-8c77d880-cc70-11eb-8469-651795b93bbb.png)
