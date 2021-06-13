@@ -9,6 +9,7 @@ description : Catatan mahasiswa ibu yang luhur
 {% capture list_items %}
 Metode Regresi
 Regresi Logistik Biner
+Estimasi Parameter
 {% endcapture %}
 {% include elements/list.html title="Table of Contents" type="toc" %}
 
@@ -32,116 +33,10 @@ Outcome dari variabel respon y terdiri dari 2 kategori yaitu "sukses" dan "gagal
 
 Variabel y mengikuti distribusi **Bernoulli** untuk setiap observasi tunggal.
 
-Fungsi probabilitasnya adalah:
-![image](https://user-images.githubusercontent.com/71642722/121794635-38e79980-cc34-11eb-8f5c-64800dca647e.png)
-
-Dimana jika y = 0, maka f(y) = 1 - π, dan jika y = 1, maka F(y) = π.
-
-Fungsi regresi logistik dapat dituliskan sebagai berikut:
-![image](https://user-images.githubusercontent.com/71642722/121794696-ae536a00-cc34-11eb-888c-b648fc787bea.png)
-
-dengan,
-![image](https://user-images.githubusercontent.com/71642722/121794706-bd3a1c80-cc34-11eb-9813-b27dca120618.png)
-
-Nilai z antara -∞ dan +∞ sehingga nilai f(z) terletak antara 0 dan 1 untuk setiap nilai z yang diberikan.
-
-Hal tersebut menunjukkan bahwa **model logistik menggambarkan probabilitas atau resiko dari suatu objek**
-
-Model regresi logistiknya adalah sebagai berikut:
-![image](https://user-images.githubusercontent.com/71642722/121794741-10ac6a80-cc35-11eb-8b16-ea1ff654e21b.png)
-
-dimana p = banyaknya variabel prediktor.
-
-Untuk mempermudah pendugaan parameter regresi, maka model regresi logistik pada persamaan diatas diuraikan dengan menggunakan transformasi logit dari π(x).
-
-![image](https://user-images.githubusercontent.com/71642722/121803511-3e60d600-cc6c-11eb-86ad-cd16900adc73.png)
-
-Sehingga diperoleh persamaan berikut 
-
-![image](https://user-images.githubusercontent.com/71642722/121803533-533d6980-cc6c-11eb-9300-fc172d57a03c.png)
-
-**Model tersebut merupakan fungsi linier dari parameter-parameternya.**
-
-Dalam model regresi linier, diasumsikan bahwa amatan dari variabel respon diekspresikan sebagai `y = E(Y|x) + ε`, dimana
-
-![image](https://user-images.githubusercontent.com/71642722/121803591-98fa3200-cc6c-11eb-8389-0065ed403dbc.png)
-
-merupakan rataan dari populasi dan **ε diasumsikan mengikuti sebaran normal dengan rataan nol dan varians konstan.**
+> **Model logistik menggambarkan probabilitas atau resiko dari suatu objek**
 
 #### Estimasi Parameter
 
 > Estimasi parameter dalam regresi logistik dilakukan dengan metode **Maximum Likelihood.**
 
 Metode tersebut **mengestimasi parameter β dengan cara memaksimumkan fungsi likelihood** dan **mensyaratkan bahwa data harus mengikuti suatu distribusi tertentu.**
-
-**Pada regresi logistik, setiap pengamatan mengikuti distribusi bernoulli** sehingga dapat ditentukan fungsi likelihoodnya.
-
-Jika xi dan yi adalah pasangan variabel bebas dan terikat pada pengamatan ke-i, dan diasumsikan bahwa setiap pasangan pengamatan saling independen dengan pasangan pengamatan yang lainnya, i = 1, 2, ..., n.
-
-Maka **fungsi probabilitas untuk setiap pasangan** adalah sebagai berikut:
-
-![image](https://user-images.githubusercontent.com/71642722/121803829-803e4c00-cc6d-11eb-87d3-a98c0acda9c4.png)
-
-dengan,
-
-![image](https://user-images.githubusercontent.com/71642722/121803837-8a604a80-cc6d-11eb-8a73-abb6ffaed048.png)
-
-dimana ketika j = 0, maka nilai xij = xi0 = 1.
-
-**Setiap pasangan pengamatan diasumsikan independen**, sehingga fungsi likelihoodnya merupakan gabungan dari fungsi distribusi masing-masing pasangan, yaitu sebagai berikut:
-
-![image](https://user-images.githubusercontent.com/71642722/121803869-aa900980-cc6d-11eb-85ea-16e5474c02a8.png)
-
-Fungsi likelihood tersebut lebih mudah dimaksimumkan dalam bentuk log l(β) dan dinyatakan dengan L(β).
-
-![image](https://user-images.githubusercontent.com/71642722/121803924-dad7a800-cc6d-11eb-8a16-59f81ad12d1f.png)
-
-Nilai β maksimum didapatkan melalui turunan L(β) terhadap β. Dan hasilnya adalah sama dengan nol.
-
-![image](https://user-images.githubusercontent.com/71642722/121804033-81bc4400-cc6e-11eb-82f7-0607452d7d6a.png)
-
-sehingga,
-
-![image](https://user-images.githubusercontent.com/71642722/121804037-8e409c80-cc6e-11eb-8b03-544819f95d5c.png)
-
-##### Estimasi varians dan kovarians
-
-Estimasi varians dan kovarians dikembangkan melalui teori Maximum Likelihood Estimation dari koefisien parameternya (Rao, 1973 dalam Hosmer dan Lemeshow, 1989).
-
-Teori tersebut menyatakan bahwa estimasi varians kovarians didapatkan melalui turunan kedua L(β).
-
-![image](https://user-images.githubusercontent.com/71642722/121804080-d8298280-cc6e-11eb-8263-b0704a50bafc.png)
-
-Matriks varians kovarians berdasarkan estimasi parameter diperoleh melalui invers matriks dan diberikan sebagai berikut:
-
-![image](https://user-images.githubusercontent.com/71642722/121804107-f7281480-cc6e-11eb-8143-25564205111f.png)
-
-- Diag merupakan matriks diagonal (n x n) 
-- Penaksir SE(β-hat) diberikan oleh akar kuadrat diagonal utama
-- Untuk mendapatkan nilai taksiran β dari turunan pertama fungsi L(β) yang non linier, digunakan metode iterasi **Newton Raphson**
-
-![image](https://user-images.githubusercontent.com/71642722/121804197-60a82300-cc6f-11eb-9305-30230b79bd5f.png)
-
-dengan,
-
-![image](https://user-images.githubusercontent.com/71642722/121804206-6b62b800-cc6f-11eb-85fa-b730af2c755a.png)
-
-dan H merupakan matriks Hessian yang elemen-elemennya adalah 
-
-![image](https://user-images.githubusercontent.com/71642722/121804231-86cdc300-cc6f-11eb-98b8-f7bf0155b74d.png)
-
-sehingga,
-
-![image](https://user-images.githubusercontent.com/71642722/121804251-9cdb8380-cc6f-11eb-9a4f-c2ffb8393309.png)
-
-diperoleh,
-
-![image](https://user-images.githubusercontent.com/71642722/121804365-2e4af580-cc70-11eb-8a6d-c02b696ddada.png)
-
-dengan 
-
-![image](https://user-images.githubusercontent.com/71642722/121804372-3b67e480-cc70-11eb-9ab0-ccb68641c62d.png)
-
-Langkah-langkah iterasi Newton Raphson adalah sebagai berikut:
-
-![image](https://user-images.githubusercontent.com/71642722/121804418-8c77d880-cc70-11eb-8469-651795b93bbb.png)
