@@ -1,9 +1,9 @@
 ---
-title: Big Data Analytics using Spark
+title: Big Data Analytics
 tags: [spark]
 style: fill
-color: warning
-description : 
+color: dark
+description : Big Data Analytis using Spark
 ---
 
 #### Prequisites
