@@ -3,7 +3,7 @@ title: Analisis Multivariat
 tags: [statistics]
 style: fill
 color: info
-description : Big Data Analytis using Spark
+description : Catatan mahasiswa ibu yang luhur
 ---
 
 #### Mengenal analisis multivariat
