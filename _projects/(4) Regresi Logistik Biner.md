@@ -1,5 +1,5 @@
 ---
-name: Heart Disease Classification Logistic Model Interpretation
+name: Interpretasi Model Regresi Logistik
 tools: [regression]
 image: 
 description: Regresi logistik biner sederhana pada data Heart Disease UCI
