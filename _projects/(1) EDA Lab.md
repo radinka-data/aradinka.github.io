@@ -62,4 +62,6 @@ description: Materi kelas praktikum mata kuliah analisis eksplorasi data
 
 {% include elements/button.html link="https://colab.research.google.com/drive/15bXT3lbrSI80gx39HJBd_rZGa_5FL8cN?usp=sharing" text="Materi Praktikum" style="primary" size="sm" %}
 
-{% include elements/button.html link="https://forms.gle/mtMDcHNhWwZwGW3h7" text="Form Pengumpulan Tugas Week 11" block=true %}
+## Week 13 - Count Plot & Bubble Plot
+
+{% include elements/button.html link="https://www.kaggle.com/aradinka/count-plot-bubble-plot" text="Materi Praktikum" style="primary" size="sm" %}
