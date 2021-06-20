@@ -65,3 +65,16 @@ description: Materi kelas praktikum mata kuliah analisis eksplorasi data
 ## Week 13 - Count Plot & Bubble Plot
 
 {% include elements/button.html link="https://www.kaggle.com/aradinka/count-plot-bubble-plot" text="Materi Praktikum" style="primary" size="sm" %}
+
+
+## Tugas Week 13
+
+**Membuat custom theme dengan nama kalian masing-masing**
+
+* Buat minimal 1 bubble plot dan 1 count plot
+* Buat custom theme dengan nama kalian masing-masing. Contoh : theme_azka()
+* Code R, dataset, dan PDF (berisi hasil plot dan link dataset) dijadikan dalam 1 file zip/RAR dengan format NRP_NAMA LENGKAP
+* Apabila mengerjakan menggunakan kaggle notebook, sertakan juga linknya pada form pengumpulan (tidak wajib)
+
+
+{% include elements/button.html link="https://forms.gle/5VLReFxs2SgY7iWf6" text="Form Pengumpulan Tugas Week 13" block=true %}
