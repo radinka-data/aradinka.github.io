@@ -1,5 +1,5 @@
 ---
-name: Interpretasi Model Regresi Logistik Multinomial
+name: Model Regresi Logistik Multinomial
 tools: [regression]
 image: 
 description: Regresi logistik multinomial pada data 1987 National Indonesia Contraceptive Prevalence Survey
