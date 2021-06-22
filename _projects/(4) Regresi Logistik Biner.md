@@ -1,5 +1,5 @@
 ---
-name: Interpretasi Model Regresi Logistik Biner
+name: Model Regresi Logistik Biner
 tools: [regression]
 image: 
 description: Regresi logistik biner sederhana pada data Heart Disease UCI
