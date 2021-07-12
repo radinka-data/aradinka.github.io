@@ -2,6 +2,7 @@
 title: Analisis Multivariat
 tags: [statistics]
 style: fill
+image : https://i.postimg.cc/nzrjM2Sq/scree-plot.png
 color: info
 description : Catatan mahasiswa ibu yang luhur
 ---
